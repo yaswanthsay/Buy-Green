@@ -15,7 +15,6 @@ code {
 .navbar{
   display: flex;
   justify-content: space-between;
- 
 }
 .nav__container{
   background-image: url("https://images.unsplash.com/photo-1587334274328-64186a80aeee?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500");
@@ -70,8 +69,17 @@ code {
 }
 .nav_right_column{
   position: absolute;
-  margin-top: 430px;
+  margin-top: 716px;
   margin-left: -300px;
+  background-color: rgb(240, 240, 240);
+  padding: 30px;
+  padding-left: 40px;
+  padding-top: 40px;
+  height: 248px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  
 }
 .nav_right_title{
   color: gray;
@@ -91,11 +99,13 @@ code {
   color: white;
   border-radius: 8px;
   margin-top: 20px;
+  margin-left: 257px;
 }
 .nav_para_link{
   color: green;
 }
 .plant{
-  background-color: white;
+  background-color: rgb(240, 240, 240);
   height: 400px;
+  border-top: 1px solid;
 }

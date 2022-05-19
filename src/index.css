@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.nav__container{
+  background-image: url("https://images.unsplash.com/photo-1587334274328-64186a80aeee?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500");
+  height: 550px;
+  background-repeat: no-repeat;
+}
+.nav__left{
+  display: flex;
+}
+.nav__title{
+  font-size: 25px;
+  margin-left: 45px;
+  color: gray;
+}
+.nav__menu{
+  width:25px;
+  height: 25px;
+  margin-left:40px;
+  margin-top: 23px;
+}
+.nav__title span {
+  color: rgb(95, 181, 95);
+  font-weight: 700;
+}
+.nav__leaf{
+  width:23px;
+  margin-left: 4px;
+}
+.nav__right{
+  display: flex;
+  align-items: center;
+  margin-right: 250px;
+}
+.nav__home{
+  text-decoration: none;
+  color: green;
+}
+.nav__cart{
+  margin-left: 17px;
+  text-decoration: none;
+  color: green;
+}
+.nav__help{
+  margin-left: 17px;
+  text-decoration: none;
+  color: green;
+}
+.nav__login{
+  margin-left: 17px;
+  text-decoration: none;
+  color: green;
+}
+.nav_right_column{
+  position: absolute;
+  margin-top: 430px;
+  margin-left: -300px;
+}
+.nav_right_title{
+  color: gray;
+  font-size: 35px;
+}
+.nav_right_para{
+  font-size: 13px;
+}
+.nav__btn{
+  border: 1px;
+  background-color: rgb(94, 156, 94);
+  height: 40px;
+  width: 80px;
+  box-shadow: 2px 2px 2px rgb(193, 193, 193);
+  font-weight: 600;
+  font-size: 10px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.nav_para_link{
+  color: green;
+}
+.plant{
+  background-color: white;
+  height: 400px;
+}

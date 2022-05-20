@@ -157,6 +157,7 @@ body {
 .nav__typical{
   font-size: 55px;
   font-weight: 700;
+  color: rgb(108, 108, 108);
 }
 .plant_img_para{
   display: flex;
@@ -177,4 +178,39 @@ body {
   padding: 20px;
   margin-top: 84px;
   margin-left: 60px;
+}
+.login__form{
+  display: flex;
+  flex-direction: column;
+  width:260px;
+  gap: 15px;
+  border: 1px solid;
+  padding: 20px;
+  height: 360px;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+.login__email{
+  height: 35px;
+  text-indent: 15px;
+}
+.login__password{
+  height: 35px;
+  text-indent: 15px;
+}
+.login__btn{
+  height: 45px;
+  background-color: rgb(111, 158, 142);
+  border: 1px;
+  margin-top: 10px;
+}
+.login__title{
+  margin-left: 80px;
+  font-size: 20px;
+}
+.login_new_account{
+  font-size: 14px;
 }

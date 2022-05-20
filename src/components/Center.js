@@ -2,7 +2,9 @@ import React from 'react'
 
 function Center() {
   return (
-    <div>Center</div>
+    <div className='center'>
+      <img src='/office2.jpg' alt='' className='center__img'/>
+    </div>
   )
 }
 

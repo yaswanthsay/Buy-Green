@@ -2,7 +2,7 @@ import React from 'react'
 
 function Bottom() {
   return (
-    <div>Bottom</div>
+    <div className='bottom'>Bottom</div>
   )
 }
 

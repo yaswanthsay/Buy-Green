@@ -107,7 +107,7 @@ body {
   height: 400px;
   border-top: 1px ;
   padding:20px;
- 
+ box-shadow: 2px 2px 5px 3px rgb(118, 118, 118);
 }
 .plant__title{
   font-size: 27px;
@@ -120,7 +120,7 @@ body {
   margin-left: 50px;
   width: 500px;
   height: 500px;
-  box-shadow:0px 10px 3px rgb(138, 138, 138);
+  box-shadow:0px 5px 3px rgb(138, 138, 138);
   border: 1px solid black;
 }
 .center{
@@ -131,7 +131,7 @@ body {
   height: 500px;
   margin-left:750px;
   margin-top: 210px;
-  box-shadow: 10px 10px 3px  rgb(138, 138, 138);
+  box-shadow: 4px 4px 3px  rgb(138, 138, 138);
   border: 1px solid;
 }
 .bottom{
@@ -152,7 +152,7 @@ body {
 .nav_right_typical{
   margin-left:870px;
   font-size: 25px;
- margin-top: -50px;
+ margin-top: -60px;
 }
 .nav__typical{
   font-size: 55px;
@@ -167,4 +167,14 @@ body {
   margin-top: 355px;
   font-size: 50px;
   font-family: 'Great Vibes';
+}
+.bottom__para{
+  width: 550px;
+  text-align: justify;
+  font-size: 17px;
+  font-style: italic;
+  border: 2px solid;
+  padding: 20px;
+  margin-top: 84px;
+  margin-left: 60px;
 }

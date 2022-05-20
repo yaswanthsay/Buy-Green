@@ -15,9 +15,9 @@ function Plant() {
                 <Typical className='nav__typical'
                             steps={[
                                 'GREEN',
-                                2000,
+                                500,
                                 'SPACE?',
-                                2000,
+                                500,
                             ]}
                             wrapper="p"
                             loop={Infinity}

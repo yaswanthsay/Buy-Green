@@ -2,6 +2,7 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 import { useFormik } from 'formik';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Login() {
 
@@ -49,7 +50,7 @@ function Login() {
                         <input placeholder='Password' className='login__password' name='password' type='password' onChange={formik.handleChange} onBlur={formik.handleBlur} />
                         {formik.errors.password ? <div>{formik.errors.password}</div> : null}
                         <input type='submit' className='login__btn' value='Login' />
-                        <p className='login_new_account'>Create an account?</p>
+                        <NavLink to='/signup' className='login_new_account'>Create an account?</NavLink>
                     </form>
                 </div>
             </Fade>
